@@ -1,4 +1,15 @@
+The original data for this project were obtained from
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The data used can be downloadeded from
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 The variables that were included in the final tidy data are the following:
+
+Subject variables are ranged from 1 to 30, indicating the ID of the studied subject.
+Activity variable are codified as: 1: walking, 2: walking_upstairs, 3:walking_downstairs, 4: sitting, 5: standing, 6: laying.
+
+The rest of variables are means of the characteristics evaluated via gyroscope and detailed in the original data.
 
  [1] "subject"                     "activity"                   
  [3] "tBodyAcc-mean()-X"           "tBodyAcc-mean()-Y"          
