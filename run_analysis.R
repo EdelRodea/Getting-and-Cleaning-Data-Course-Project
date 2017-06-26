@@ -96,6 +96,8 @@ dim(subject)
 ####Adding subject ID to data
 finaldata <- cbind(subject, finaldata) 
 dim(finaldata)
+finaldata <- finaldata[,-2]
+names(finaldata)
 
 #### Calculating mean by subject and activity
 library(reshape2)
